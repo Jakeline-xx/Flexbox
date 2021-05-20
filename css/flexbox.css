@@ -1,0 +1,11 @@
+/*DEIXANDO O CABEÇALHO FLEX*/
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;   /*ESTÁ COM MARGIN, SENÃO FICARIAM TODOS GRUDADOS*/
+}
