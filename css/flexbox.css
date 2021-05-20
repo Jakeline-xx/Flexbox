@@ -33,3 +33,12 @@
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
+
+/*DEIXANDO O MAPA DE CURSOS (RODAPÉ) FLEX*/
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+}
