@@ -9,3 +9,27 @@
 .cabecalhoPrincipal-nav {
     display: flex;   /*ESTÁ COM MARGIN, SENÃO FICARIAM TODOS GRUDADOS*/
 }
+
+/*DEIXANDO O RODAPÉ FLEX*/
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-right: 5%;
+    justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
